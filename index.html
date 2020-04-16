@@ -1115,6 +1115,58 @@
               </tr>
 
               <tr onmouseout="proj_sisr_stop()" onmouseover="proj_sisr_start()">
+        <td style="padding:20px;width:25%;vertical-align:middle">
+          <div class="one">
+            <div class="two" id='proj_sisr_image'><img src='images/proj_5_re.gif'></div>
+            <img src='images/robot.gif'>
+          </div>
+          <script type="text/javascript">
+            function proj_sisr_start() {
+              document.getElementById('proj_sisr_image').style.opacity = "1";
+            }
+
+            function proj_sisr_stop() {
+              document.getElementById('proj_sisr_image').style.opacity = "0";
+            }
+            proj_sisr_stop()
+          </script>
+        </td>
+        <td style="padding:20px;width:75%;vertical-align:middle;text-align:justify">
+          <a href="https://github.com/sauradip/lightweight_saliency_detection" target="_blank">
+            <papertitle>
+              <font size="3">Light-weight Salient Object Detection</font>
+            </papertitle>
+          </a>
+          <br><br>
+          <font size="3">
+            <!-- Image super resolution is the process of increasing the resolution of a Low Resolution (LR) image by generating pixels which interpolate best between the given LR image and the required High Resolution (HR) image. The code was written using Keras (TF backend) in Python3 and comes with an easy to use interface. -->
+            <!-- The task has numerous applications like in Satellite Imaging, Surveillance, Medical image processing, Biometrics, etc. -->
+            Salient object detection is a prevalent computer vision task that has applications ranging from abnormality
+            detection to abnormality processing. Context modelling is an important criterion in the domain of saliency
+            detection. A global context helps in determining the salient object in a given image by contrasting away
+            other objects in the global view of the scene. However, the local context features detects the boundaries of
+            the salient object with higher accuracy in a given region. To incorporate the best of both worlds, our
+            proposed SaLite model uses both global and local contextual features. It is an encoder-decoder based
+            architecture in which the encoder uses a lightweight SqueezeNet and decoder is modelled using convolution
+            layers. This has been implemented in PyTorch.
+
+          </font>
+          <br>
+          <p></p>
+          <a href="https://github.com/sauradip/lightweight_saliency_detection" target="_blank">
+            <font size="3">Code</font>
+          </a> / 
+          <a href="https://arxiv.org/abs/1912.03641" target="_blank">
+                    <font size="3">Arxiv</font>
+                  </a>
+          <p></p>
+        </td>
+
+      </tr>
+              
+              
+              
+              <tr onmouseout="proj_sisr_stop()" onmouseover="proj_sisr_start()">
                 <td style="padding:20px;width:25%;vertical-align:middle">
                   <div class="one">
                     <div class="two" id='proj_sisr_image'><img src='images/proj_3.gif'></div>
